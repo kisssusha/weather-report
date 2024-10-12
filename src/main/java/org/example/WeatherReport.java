@@ -39,7 +39,7 @@ public class WeatherReport {
 
     private static boolean isApiKeyMissing() {
         if (API_KEY == null || API_KEY.isEmpty()) {
-            System.err.println("API-ключ не найден. Установите переменную окружения 'YANDEX_WEATHER_API_KEY'.");
+            System.err.println("API-ключ не найден. Установите переменную окружения 'YANDEX_WEATHER_TOKEN'.");
             return true;
         }
         return false;
